@@ -1,4 +1,8 @@
-const state = [];
+import sevice from '../services/service'
+
+const state =  {
+  movies: []
+}
 
 const getters = [];
 
