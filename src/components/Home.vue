@@ -1,3 +1,22 @@
+<script>
+export default {
+  name:'Home',
+  data() {
+    return {}
+  },
+  created() {
+    this.$store.dispatch('fetchMovies')
+  }
+}
+</script>
+
+
 <template>
-  <h1>Hollo World !</h1>
+  
 </template>
+
+
+<style>
+
+</style>script
+
